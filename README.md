@@ -3,6 +3,15 @@ Copyright (c) 2014, Sungsit Sawaiwan <http://sungsit.com>
 
 **BoonHome** is a type family for Lao and Thai scripts (no Basic Latin provided, at the moment). Created with FontForge <http://fontforge.org>.
 
+**ພາສາລາວ**
+<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-lo.png" alt="ບຸນໂຮມ">
+
+**ภาษาไทย**
+<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-th.png" alt="บุญโฮม">
+
+**Sample texts & styles**
+<img src="https://github.com/sungsit/boonhome/raw/master/img/600x800-display.png" alt="Sample">
+
 ## License
 SIL Open Font License (OFL) <http://scripts.sil.org/OFL> with Reserved Font Name "BoonHome".
 
