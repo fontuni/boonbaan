@@ -1,8 +1,7 @@
-## BoonHome Fonts
+## BoonHome Type Family
 Copyright (c) 2014, Sungsit Sawaiwan <http://sungsit.com>
-Created with FontForge <http://fontforge.org>
 
-**BoonHome** is a font family for Lao and Thai scripts (no Basic Latin provided).
+**BoonHome** is a type family for Lao and Thai scripts (no Basic Latin provided, at the moment). Created with FontForge <http://fontforge.org>.
 
 ## License
 SIL Open Font License (OFL) <http://scripts.sil.org/OFL> with Reserved Font Name "BoonHome".
