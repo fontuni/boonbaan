@@ -1,0 +1,25 @@
+BoonHome Font Information
+
+BoonHome is a Unicode typeface family that supports Lao and Thai languages. Since version 0.2, it was expanded to completely support the following Unicode ranges:
+
+- Basic Latin
+- Latin-1 Supplement
+- Latin Extended-A
+
+And partially included some glyphs from Latin Extended-B and Latin Extended Additional for Vietnamese language.
+ 
+2014-1-12: Initiated.
+
+2014-1-29: BoonHome v0.1
+
+- Created basic OpenType features for Lao and Thai languages.
+- Completed Lao and Thai glyphs.
+- Generated 400 & 700 weights with Oblique style.
+
+2014-2-09: BoonHome v0.2
+
+- Corrected some Lao and Thai glyphs.
+- Corrected OpenType features for Lao and Thai's vowels and tone marks.
+- Completed Basic Latin, Latin-1 Supplement, Latin Extended-A.
+- Partially included Latin Extended-B and Latin Extended Additional.
+- Kerned diacritic glyphs, especially for Vietnamese language.

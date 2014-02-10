@@ -1,24 +1,32 @@
-## BoonHome Type Family
+## BoonHome Unicode Typeface
 Copyright (c) 2014, Sungsit Sawaiwan <http://sungsit.com>
 
-**BoonHome** is a type family for Lao and Thai scripts (no Basic Latin provided, at the moment). Created with Inkscape <http://www.inkscape.org> and FontForge <http://fontforge.org>.
+**BoonHome** is a Unicode typeface family that supports **Lao and Thai** languages. Since version 0.2, it was expanded to **completely support** the following Unicode ranges:
 
-**ພາສາລາວ**
+- **Basic Latin**
+- **Latin-1 Supplement**
+- **Latin Extended-A**
 
-<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-lo.png" alt="ບຸນໂຮມ">
+And partially included some glyphs from **Latin Extended-B** and **Latin Extended Additional** ranges for Vietnamese language.
 
-**ภาษาไทย**
+Created with **Inkscape** <http://www.inkscape.org> and **FontForge** <http://fontforge.org>.
 
-<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-th.png" alt="บุญโฮม">
+###ພາສາລາວ
 
-**Sample texts & styles**
+<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-icon-lo.png" alt="ບຸນໂຮມ">
 
-<img src="https://github.com/sungsit/boonhome/raw/master/img/600x800-display.png" alt="Sample">
+###ภาษาไทย
 
-## License
+<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-icon-th.png" alt="บุญโฮม">
+
+###Sample Unicode texts
+
+<img src="https://github.com/sungsit/boonhome/raw/master/img/600x800-display-uni.png" alt="Sample Unicode texts">
+
+### License
 SIL Open Font License (OFL) <http://scripts.sil.org/OFL> with Reserved Font Name "BoonHome".
 
-## DISCLAIMER
+### DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
