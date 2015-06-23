@@ -24,7 +24,7 @@ Created with **Inkscape** <http://www.inkscape.org> and **FontForge** <http://fo
 <img src="https://github.com/sungsit/boonhome/raw/master/img/600x800-display-uni.png" alt="Sample Unicode texts">
 
 ### License
-SIL Open Font License (OFL) <http://scripts.sil.org/OFL> with Reserved Font Name "BoonHome".
+SIL Open Font License (OFL) <http://scripts.sil.org/OFL>
 
 ### DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
