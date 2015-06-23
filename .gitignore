@@ -15,4 +15,7 @@ Thumbs.db
 *.swp
 ._*
 *~
+
+# FontForge #
 *.sfd-*
+fonts-unhinted/*
