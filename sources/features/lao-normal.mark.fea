@@ -1,0 +1,38 @@
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+include(lao-classes.fea)
+
+lookup LaoAbove.mark {
+  lookupflag 0;
+  markClass [ @AV.lao @T.lao.sd ] <anchor 0 0> @LaoAbove.mark;
+
+  # ก alike
+  pos base [\uni0E81 \uni0E96 ] <anchor 720 0> mark @LaoAbove.mark;
+  # ง alike
+  pos base [ \uni0E87 \uni0EB2 ] <anchor 600 0> mark @LaoAbove.mark;
+
+} LaoAbove.mark;
+
+lookup LaoBelow.mark {
+  lookupflag 0;
+
+  markClass [ @BV.lao.sd ] <anchor 0 0> @LaoBelow.mark;
+  pos base [ \uni0E87 ] <anchor 580 0> mark @LaoBelow.mark;
+
+  markClass [ \uni0EB8 ] <anchor -60 0> @LaoBelow2.mark;
+  markClass [ \uni0EB9 \uni0EBC ] <anchor 0 0> @LaoBelow2.mark;
+  pos base [ \uni0E8A ] <anchor 630 0> mark @LaoBelow2.mark;
+  pos base [ \uni0E96 ] <anchor 600 0> mark @LaoBelow2.mark;
+  
+} LaoBelow.mark;
+
+feature mark {
+  lookup LaoAbove.mark;
+  lookup LaoBelow.mark;
+} mark;

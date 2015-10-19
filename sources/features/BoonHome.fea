@@ -212,13 +212,13 @@ lookup kernLatinKerning {
 
 lookup markLatinMarktoBase {
   lookupflag 0;
-  markClass [\gravecomb \acutecomb \tildecomb ] <anchor 0 680> @latin2ndabove;
-  markClass [\hookabovecomb ] <anchor 0 700> @latin2ndabove;
+  markClass [\uni0300 \uni0301 \uni0303 ] <anchor 0 680> @latin2ndabove;
+  markClass [\uni0309 ] <anchor 0 700> @latin2ndabove;
   pos base [\Acircumflex \Abreve ] <anchor 420 1060> mark @latin2ndabove;
   pos base [\Ecircumflex ] <anchor 340 1060> mark @latin2ndabove;
   pos base [\Ocircumflex ] <anchor 410 1060> mark @latin2ndabove;
   pos base [\acircumflex \ecircumflex \ocircumflex \abreve ] <anchor 350 880> mark @latin2ndabove;
-  markClass [\uni0308 \uni030A \uni0307 \gravecomb \acutecomb \uni0304 \uni030F \uni0302 \uni030C \tildecomb \uni0306 \uni0315 \uni0312 \hookabovecomb ] <anchor 0 680> @latin1stabove;
+  markClass [\uni0308 \uni030A \uni0307 \uni0300 \uni0301 \uni0304 \uni030F \uni0302 \uni030C \uni0303 \uni0306 \uni0315 \uni0312 \uni0309 ] <anchor 0 680> @latin1stabove;
   markClass [\uni030B ] <anchor -80 680> @latin1stabove;
   pos base [\a \o \s \c \p \q \g \e \ohorn \uni1EA1 \uni1EB9 \uni1ECD ] <anchor 350 680> mark @latin1stabove;
   pos base [\l ] <anchor 170 920> mark @latin1stabove;
@@ -248,7 +248,7 @@ lookup markLatinMarktoBase {
   pos base [\W ] <anchor 560 860> mark @latin1stabove;
   pos base [\Y ] <anchor 360 860> mark @latin1stabove;
   pos base [\Z ] <anchor 380 860> mark @latin1stabove;
-  markClass [\uni0326 \dotbelowcomb ] <anchor 0 -60> @latinnormalbelow;
+  markClass [\uni0326 \uni0323 ] <anchor 0 -60> @latinnormalbelow;
   pos base [\a \E \K \Y \Ecircumflex \acircumflex \abreve ] <anchor 360 -60> mark @latinnormalbelow;
   pos base [\l \i \dotlessi ] <anchor 210 -60> mark @latinnormalbelow;
   pos base [\o \ocircumflex \ohorn ] <anchor 350 -60> mark @latinnormalbelow;
@@ -432,16 +432,16 @@ feature mkmk {
 	\uni0E0D \uni0E09 \uni0E18 \uni0E10.descless \uni0E10 \uni0E0F \uni0E0E 
 	\uni0E0E.alt \uni0E0F.alt \uni20AD \uni0ED0 \uni0ED1 \uni0ED2 \uni0ED3 \uni0ED6 
 	\uni0ED9 \uni0ED8 \uni0ED4 \uni0ED5 \uni0E50 \uni0E51 \uni0E54 \uni0E55 \uni0E53 
-	\uni0E56 \uni0E57 \uni0E59 \uni0E52 \uni0E58 \uni0E3F \uniFEFF \uni200B 
-	\afii61664 \afii301 \uni0E4E \uni0E4F \uni0E5B \uni0E5A \a \l \o \s \c \x \d \n \h \b \p 
-	\i \q \g \period \dotlessi \r \u \H \T \E \L \F \I \X \O \U \C \t \w \m \e \f \j \uni0237 \K \k \y 
-	\z \v \V \A \G \B \bracketright \D \S \J \P \R \M \N \W \Y \Z \Q \bracketleft \numbersign 
-	\percent \parenleft \exclam \quotedbl \quotesingle \asterisk \plus \hyphen 
-	\slash \less \equal \question \underscore \asciicircum \grave \asciitilde 
-	\braceleft \bar \brokenbar \guillemotleft \logicalnot \plusminus \braceright 
-	\colon \zero \backslash \greater \parenright \periodcentered \multiply \divide 
-	\uni00AD \ampersand \guillemotright \copyright \registered \dollar \one \two 
-	\three \four \five \six \nine \seven \eight \degree \uni00B2 \uni00B3 \uni00B9 
+	\uni0E56 \uni0E57 \uni0E59 \uni0E52 \uni0E58 \uni0E3F \uniFEFF \uni200B \uni200C 
+	\uni200D \uni0E4E \uni0E4F \uni0E5B \uni0E5A \a \l \o \s \c \x \d \n \h \b \p \i \q \g 
+	\period \dotlessi \r \u \H \T \E \L \F \I \X \O \U \C \t \w \m \e \f \j \uni0237 \K \k \y \z \v \V 
+	\A \G \B \bracketright \D \S \J \P \R \M \N \W \Y \Z \Q \bracketleft \numbersign \percent 
+	\parenleft \exclam \quotedbl \quotesingle \asterisk \plus \hyphen \slash \less 
+	\equal \question \underscore \asciicircum \grave \asciitilde \braceleft \bar 
+	\brokenbar \guillemotleft \logicalnot \plusminus \braceright \colon \zero 
+	\backslash \greater \parenright \periodcentered \multiply \divide \uni00AD 
+	\ampersand \guillemotright \copyright \registered \dollar \one \two \three \four 
+	\five \six \nine \seven \eight \degree \two.sups \three.sups \uni00B9 
 	\ordfeminine \ordmasculine \comma \semicolon \dieresis \adieresis \aring 
 	\idieresis \odieresis \udieresis \ydieresis \cdotaccent \edotaccent 
 	\gdotaccent \edieresis \Edieresis \Adieresis \Idieresis \Odieresis \Udieresis 
@@ -485,16 +485,35 @@ feature mkmk {
 	\guilsinglleft \guilsinglright \dagger \daggerdbl \bullet \uni2023 
 	\onedotenleader \twodotenleader \uni2027 \perthousand \uni2031 \uni2010 
 	\uni2011 \figuredash \endash \emdash \afii00208 \uni2016 \underscoredbl 
-	\uni2038 \uni25CC \uni203B \uni0000 \uni0009 \CR ];
+	\uni2038 \uni25CC \uni203B \uni0000 \uni0009 \nonmarkingreturn \uni0251 
+	\uni0259 \uni0261 \uni02BE \uni02BF \circumflex \caron \uni02C8 \uni02C9 
+	\uni02CA \uni02CB \uni02CC \breve \dotaccent \ring \hungarumlaut \tilde \uni030D 
+	\uni030E \uni0311 \uni0313 \uni0314 \uni0324 \uni0329 \uni032E \uni0331 \uni0351 
+	\uni0357 \uni0358 \pi \uni1E0C \uni1E0D \uni1E0E \uni1E0F \uni1E20 \uni1E21 
+	\uni1E24 \uni1E25 \uni1E2A \uni1E2B \uni1E36 \uni1E37 \uni1E38 \uni1E39 \uni1E3A 
+	\uni1E3B \uni1E42 \uni1E43 \uni1E44 \uni1E45 \uni1E46 \uni1E47 \uni1E5A \uni1E5B 
+	\uni1E5C \uni1E5D \uni1E5E \uni1E5F \uni1E60 \uni1E61 \uni1E62 \uni1E63 \uni1E6C 
+	\uni1E6D \uni1E6E \uni1E6F \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
+	\uni1E8E \uni1E8F \uni1E92 \uni1E93 \uni1E97 \uni2007 \uni2008 \uni2009 \uni200A 
+	\uni200E \uni200F \fraction \uni2060 \uni2070 \uni2074 \uni2075 \uni2076 
+	\uni2077 \uni2078 \uni2079 \uni207D \uni207E \uni207F \uni2080 \uni2081 \uni2082 
+	\uni2083 \uni2084 \uni2085 \uni2086 \uni2087 \uni2088 \uni2089 \uni208D \uni208E 
+	\colonmonetary \lira \uni20A6 \peseta \uni20B1 \uni20B2 \uni20B5 \uni20B9 
+	\uni20BA \uni20BD \afii61289 \uni2117 \trademark \uni2120 \estimated \onethird 
+	\twothirds \oneeighth \threeeighths \fiveeighths \seveneighths \arrowleft 
+	\arrowup \arrowright \arrowdown \partialdiff \uni2206 \product \summation 
+	\minus \uni2215 \uni2219 \radical \infinity \integral \approxequal \notequal 
+	\lessequal \greaterequal \filledbox \triagup \uni25B3 \uni25B6 \uni25B7 
+	\triagdn \uni25BD \uni25C0 \uni25C1 \uni25C6 \lozenge \Omega \uniFB01 \uniFB02 
+	\uni0EDE \uni0EDF ];
 @GDEF_Ligature = [\uni0EDC \uni0EDD \uni0EDC.th \IJ \ij \ellipsis ];
 @GDEF_Mark = [\uni0EB1 \uni0EBB \uni0EB4 \uni0EB5 \uni0EB6 \uni0EB7 \uni0EC8 
 	\uni0ECB \uni0EC9 \uni0ECD \uni0ECA \uni0ECC \uni0EBC \uni0EB8 \uni0EB9 \uni0E31 
 	\uni0E4D \uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C \uni0E34 \uni0E35 \uni0E36 
 	\uni0E37 \uni0E38 \uni0E39 \uni0E3A \uni0EC8.nig \uni0EC9.nig \uni0ECA.nig 
-	\uni0ECB.nig \uni0E47 \uni0EBC.alt \uni0308 \uni030A \uni0307 \gravecomb 
-	\acutecomb \uni0304 \uni030F \uni030B \uni0302 \uni030C \tildecomb \uni0306 
-	\uni0327 \uni0328 \uni0315 \uni0326 \uni0312 \uni0EB5.alt \uni0EB7.alt 
-	\hookabovecomb \dotbelowcomb ];
+	\uni0ECB.nig \uni0E47 \uni0EBC.alt \uni0308 \uni030A \uni0307 \uni0300 \uni0301 
+	\uni0304 \uni030F \uni030B \uni0302 \uni030C \uni0303 \uni0306 \uni0327 \uni0328 
+	\uni0315 \uni0326 \uni0312 \uni0EB5.alt \uni0EB7.alt \uni0309 \uni0323 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
