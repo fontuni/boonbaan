@@ -19,11 +19,11 @@ import datetime
 foundry = 'FontUni'
 family = 'BoonBaan'
 version = '1.0-beta1'
-sources = ['sources/boonbaan-master.sfd']
+sources = ['sources/boonbaan-master.sfd', 'sources/boonbaan-master-oblique.sfd']
 layers = ['400', '700']
 licensetxt = 'OFT.txt'
 copyright =  'Copyright 2014-2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
-features = ['boonbaan-roman']
+features = ['boonbaan-roman', 'boonbaan-oblique']
 feature_dir = 'sources/'
 
 build_dir = 'fonts/'
