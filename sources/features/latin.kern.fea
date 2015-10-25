@@ -1,0 +1,117 @@
+
+lookup Latin.kern {
+  lookupflag 0;
+    @kc14_first_1 = [\A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve 
+	\Aogonek \uni1EA0 \uni1EA2 \uni1EA4 \uni1EA6 \uni1EA8 \uni1EAA \uni1EAC 
+	\uni1EAE \uni1EB0 \uni1EB2 \uni1EB4 \uni1EB6 ];
+    @kc14_first_2 = [\T \Tcommaaccent \tcommaaccent \Tcaron \tcaron \Tbar \tbar \uni021A \uni021B ];
+    @kc14_first_3 = [\V \Y \Yacute \Ycircumflex \Ydieresis \Ygrave \uni1EF4 \uni1EF6 \uni1EF8 ];
+    @kc14_first_4 = [\L \Lacute \Lcaron \Ldot \Lslash ];
+    @kc14_first_5 = [\W \Wcircumflex ];
+    @kc14_first_6 = [\B \C \D \G \O \Q \Ccedilla \Eth \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\Oslash \Thorn \germandbls \Cacute \Ccircumflex \Cdotaccent \Ccaron 
+	\Dcaron \Dcroat \Gcircumflex \Gbreve \Gdotaccent \Gcommaaccent 
+	\Omacron \Obreve \Ohungarumlaut \Sacute \Scircumflex \Scedilla \Scaron 
+	\Scommaaccent \uni1E9E \uni1ECC \uni1ECE \uni1ED0 \uni1ED2 \uni1ED4 
+	\uni1ED6 \uni1ED8 ];
+    @kc14_first_7 = [\K \X \Kcommaaccent ];
+    @kc14_first_8 = [\a \b \c \e \h \m \n \o \p \s \agrave \aacute \acircumflex \atilde \adieresis \aring \ae 
+	\ccedilla \egrave \eacute \ecircumflex \edieresis \ntilde \ograve 
+	\oacute \ocircumflex \otilde \odieresis \oslash \thorn \amacron \abreve 
+	\aogonek \cacute \ccircumflex \cdotaccent \ccaron \emacron \ebreve 
+	\edotaccent \eogonek \ecaron \nacute \ncommaaccent \ncaron \eng 
+	\omacron \obreve \ohungarumlaut \oe \sacute \scircumflex \scedilla 
+	\scaron \scommaaccent \uni1EA1 \uni1EA3 \uni1EA5 \uni1EA7 \uni1EA9 
+	\uni1EAB \uni1EAD \uni1EAF \uni1EB1 \uni1EB3 \uni1EB5 \uni1EB7 \uni1EB9 
+	\uni1EBB \uni1EBD \uni1EBF \uni1EC1 \uni1EC3 \uni1EC5 \uni1EC7 \uni1ECD 
+	\uni1ECF \uni1ED1 \uni1ED3 \uni1ED5 \uni1ED7 \uni1ED9 ];
+    @kc14_first_9 = [\k \x \kcommaaccent \kgreenlandic ];
+    @kc14_first_10 = [\w \wcircumflex ];
+    @kc14_first_11 = [\r \racute \rcommaaccent \rcaron ];
+    @kc14_first_12 = [\comma \period \underscore ];
+    @kc14_first_13 = [\v \y \yacute \ydieresis \ycircumflex \ygrave \uni1EF5 \uni1EF7 \uni1EF9 ];
+    @kc14_first_14 = [\F \P ];
+    @kc14_second_1 = [\A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Amacron \Abreve 
+	\Aogonek \uni1EA0 \uni1EA2 \uni1EA4 \uni1EA6 \uni1EA8 \uni1EAA \uni1EAC 
+	\uni1EAE \uni1EB0 \uni1EB2 \uni1EB4 \uni1EB6 ];
+    @kc14_second_2 = [\T \Tcommaaccent \tcommaaccent \Tcaron \tcaron \Tbar \tbar \uni021A \uni021B ];
+    @kc14_second_3 = [\V \Y \Yacute \Ycircumflex \Ydieresis \Ygrave \uni1EF4 \uni1EF6 \uni1EF8 ];
+    @kc14_second_4 = [\W \Wcircumflex ];
+    @kc14_second_5 = [\X ];
+    @kc14_second_6 = [\C \G \O \Q \S \Ccedilla \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash 
+	\Cacute \Ccircumflex \Cdotaccent \Ccaron \Gcircumflex \Gbreve 
+	\Gdotaccent \Gcommaaccent \Omacron \Obreve \Ohungarumlaut \OE \Sacute 
+	\Scircumflex \Scedilla \Scaron \Ohorn \Scommaaccent \uni1ECC \uni1ECE 
+	\uni1ED0 \uni1ED2 \uni1ED4 \uni1ED6 \uni1ED8 \uni1EDA \uni1EDC \uni1EDE 
+	\uni1EE0 \uni1EE2 ];
+    @kc14_second_7 = [\a \c \d \e \g \o \q \s \agrave \aacute \acircumflex \atilde \adieresis \aring \ae 
+	\ccedilla \egrave \eacute \ecircumflex \edieresis \eth \ograve \oacute 
+	\ocircumflex \otilde \odieresis \oslash \amacron \abreve \aogonek 
+	\cacute \ccircumflex \cdotaccent \ccaron \dcaron \dcroat \emacron 
+	\ebreve \edotaccent \eogonek \ecaron \gcircumflex \gbreve \gdotaccent 
+	\gcommaaccent \omacron \obreve \ohungarumlaut \oe \sacute \scircumflex 
+	\scedilla \scaron \ohorn \scommaaccent \uni1EA1 \uni1EA3 \uni1EA5 
+	\uni1EA7 \uni1EA9 \uni1EAB \uni1EAD \uni1EAF \uni1EB1 \uni1EB3 \uni1EB5 
+	\uni1EB7 \uni1EB9 \uni1EBB \uni1EBD \uni1EBF \uni1EC1 \uni1EC3 \uni1EC5 
+	\uni1EC7 \uni1ECD \uni1ECF \uni1ED1 \uni1ED3 \uni1ED5 \uni1ED7 \uni1ED9 
+	\uni1EDB \uni1EDD \uni1EDF \uni1EE1 \uni1EE3 ];
+    @kc14_second_8 = [\v \y \yacute \ydieresis \ycircumflex \ygrave \uni1EF5 \uni1EF7 \uni1EF9 ];
+    @kc14_second_9 = [\x ];
+    @kc14_second_10 = [\w \wcircumflex ];
+    @kc14_second_11 = [\comma \period \underscore \quotesinglbase \quotedblbase \ellipsis ];
+    pos @kc14_first_1 @kc14_second_2 -80;
+    pos @kc14_first_1 @kc14_second_3 -100;
+    pos @kc14_first_1 @kc14_second_4 -80;
+    pos @kc14_first_1 @kc14_second_6 -20;
+    pos @kc14_first_1 @kc14_second_8 -60;
+    pos @kc14_first_1 @kc14_second_10 -20;
+    pos @kc14_first_2 @kc14_second_1 -80;
+    pos @kc14_first_2 @kc14_second_7 -60;
+    pos @kc14_first_2 @kc14_second_8 -30;
+    pos @kc14_first_2 @kc14_second_9 -30;
+    pos @kc14_first_2 @kc14_second_10 -20;
+    pos @kc14_first_2 @kc14_second_11 -120;
+    pos @kc14_first_3 @kc14_second_1 -100;
+    pos @kc14_first_3 @kc14_second_6 -20;
+    pos @kc14_first_3 @kc14_second_7 -30;
+    pos @kc14_first_3 @kc14_second_11 -120;
+    pos @kc14_first_4 @kc14_second_2 -100;
+    pos @kc14_first_4 @kc14_second_3 -120;
+    pos @kc14_first_4 @kc14_second_4 -80;
+    pos @kc14_first_4 @kc14_second_8 -40;
+    pos @kc14_first_5 @kc14_second_1 -80;
+    pos @kc14_first_5 @kc14_second_7 -20;
+    pos @kc14_first_5 @kc14_second_11 -80;
+    pos @kc14_first_6 @kc14_second_1 -20;
+    pos @kc14_first_6 @kc14_second_3 -20;
+    pos @kc14_first_6 @kc14_second_5 -50;
+    pos @kc14_first_7 @kc14_second_6 -50;
+    pos @kc14_first_7 @kc14_second_7 -50;
+    pos @kc14_first_7 @kc14_second_8 -40;
+    pos @kc14_first_8 @kc14_second_2 -60;
+    pos @kc14_first_8 @kc14_second_3 -30;
+    pos @kc14_first_8 @kc14_second_4 -20;
+    pos @kc14_first_8 @kc14_second_5 -50;
+    pos @kc14_first_8 @kc14_second_8 -20;
+    pos @kc14_first_8 @kc14_second_9 -40;
+    pos @kc14_first_9 @kc14_second_7 -40;
+    pos @kc14_first_10 @kc14_second_1 -20;
+    pos @kc14_first_10 @kc14_second_2 -30;
+    pos @kc14_first_10 @kc14_second_11 -60;
+    pos @kc14_first_11 @kc14_second_1 -40;
+    pos @kc14_first_11 @kc14_second_2 -30;
+    pos @kc14_first_11 @kc14_second_5 -40;
+    pos @kc14_first_11 @kc14_second_9 -20;
+    pos @kc14_first_11 @kc14_second_11 -120;
+    pos @kc14_first_12 @kc14_second_3 -30;
+    pos @kc14_first_12 @kc14_second_8 -30;
+    pos @kc14_first_13 @kc14_second_2 -40;
+    pos @kc14_first_13 @kc14_second_7 -20;
+    pos @kc14_first_13 @kc14_second_11 -100;
+    pos @kc14_first_14 @kc14_second_7 -20;
+    pos @kc14_first_14 @kc14_second_9 -20;
+} Latin.kern;
+
+feature kern {
+  lookup Latin.kern;
+} kern;

@@ -37,10 +37,10 @@
 @BV.lao    = [ \uni0EB8 \uni0EB9 \uni0EBC ];
 
 # Above vowel/diacritic
-@AV.lao    = [ \uni0EB1 \uni0EB4 \uni0EB5 \uni0EB6 \uni0EB7 \uni0EBB \uni0ECD ];
+@AV.lao    = [ \uni0EB1 \uni0EB4 \uni0EB5 \uni0EB6 \uni0EB7 \uni0EBB \uni0ECC \uni0ECD ];
 
 # Above tone/diacritic
-@T.lao     = [ \uni0EC8 \uni0EC9 \uni0ECA \uni0ECB \uni0ECC ];
+@T.lao     = [ \uni0EC8 \uni0EC9 \uni0ECA \uni0ECB ];
 
 # Zero-width space
 @ZWJ = [ \uni200D ];
@@ -60,15 +60,15 @@
 @BV.lao.all = [ @BV.lao @BV.lao.sd ];
 
 # Above vowel/diacritic
-@AV.lao.sl    = [ \uni0EB1.sl \uni0EB4.sl \uni0EB5.sl \uni0EB6.sl \uni0EB7.sl \uni0EBB.sl \uni0ECD.sl ];
-@AV.lao.su  = [ \uni0ECD.su ];
-@AV.lao.sul = [ \uni0ECD.sul ];
+@AV.lao.sl    = [ \uni0EB1.sl \uni0EB4.sl \uni0EB5.sl \uni0EB6.sl \uni0EB7.sl \uni0EBB.sl \uni0ECC.sl \uni0ECD.sl ];
+@AV.lao.su  = [ \uni0ECC.su \uni0ECD.su ];
+@AV.lao.sul = [ \uni0ECC.sul \uni0ECD.sul ];
 @AV.lao.all = [ @AV.lao @AV.lao.sl @AV.lao.su @AV.lao.sul ];
 
 # Above tone/diacritic
-@T.lao.sl     = [ \uni0EC8.sl \uni0EC9.sl \uni0ECA.sl \uni0ECB.sl \uni0ECC.sl ];
-@T.lao.sd     = [ \uni0EC8.sd \uni0EC9.sd \uni0ECA.sd \uni0ECB.sd \uni0ECC.sd ];
-@T.lao.sdl     = [ \uni0EC8.sdl \uni0EC9.sdl \uni0ECA.sdl \uni0ECB.sdl \uni0ECC.sdl ];
+@T.lao.sl     = [ \uni0EC8.sl \uni0EC9.sl \uni0ECA.sl \uni0ECB.sl ];
+@T.lao.sd     = [ \uni0EC8.sd \uni0EC9.sd \uni0ECA.sd \uni0ECB.sd ];
+@T.lao.sdl     = [ \uni0EC8.sdl \uni0EC9.sdl \uni0ECA.sdl \uni0ECB.sdl ];
 @T.lao.all = [ @T.lao @T.lao.sl @T.lao.sd @T.lao.sdl ];
 
 @MARKS_EXTENDED.lao = [ @MARKS.lao @BV.lao.all @AV.lao.all @T.lao.all ];

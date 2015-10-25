@@ -1,11 +1,11 @@
 languagesystem DFLT dflt;
+languagesystem lao  dflt;
 languagesystem latn dflt;
 languagesystem latn MOL ;
 languagesystem latn ROM ;
 languagesystem thai dflt;
 languagesystem thai PAL ;
 languagesystem thai SAN ;
-languagesystem lao  dflt;
 
 #
 # Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
@@ -34,14 +34,14 @@ include(features/latin-extra.fea)
 # GPOS
 
 # Thai
-include(features/thai-normal.mark.fea)
-include(features/thai-normal.mkmk.fea)
+include(features/thai-roman.mark.fea)
+include(features/thai-roman.mkmk.fea)
 
 # Lao
-include(features/lao-normal.mark.fea)
-include(features/lao-normal.mkmk.fea)
+include(features/lao-roman.mark.fea)
+include(features/lao-roman.mkmk.fea)
 
 # Latin
-include(features/latin-normal.mark.fea)
-include(features/latin-normal.mkmk.fea)
-#include(features/boon-latin.kern.fea)
+include(features/latin-roman.mark.fea)
+include(features/latin-roman.mkmk.fea)
+include(features/latin.kern.fea)

@@ -7,3 +7,8 @@ components/*
 */unhinted/*
 *-temp*
 *-backup*
+*.bak
+
+# Package
+*.zip
+sfd/*
