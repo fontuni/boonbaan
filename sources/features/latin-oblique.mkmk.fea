@@ -16,18 +16,18 @@ include(latin-classes.fea)
 lookup LatinAbove.mkmk {
   lookupflag 0;
 
-  markClass @COMB.abv <anchor 0 0> @LatinAbove.mkmk;
+  markClass @COMB.abv <anchor -60 0> @LatinAbove.mkmk;
 
-  pos mark @COMB.abv <anchor 0 210> mark @LatinAbove.mkmk;
+  pos mark @COMB.abv <anchor -27 210> mark @LatinAbove.mkmk;
 
 } LatinAbove.mkmk;
 
 lookup LatinBelow.mkmk {
   lookupflag 0;
 
-  markClass @COMB.blw <anchor 0 0> @LatinBelow.mkmk;
+  markClass @COMB.blw <anchor -60 0> @LatinBelow.mkmk;
 
-  pos mark @COMB.blw <anchor 0 -210> mark @LatinBelow.mkmk;
+  pos mark @COMB.blw <anchor -93 -210> mark @LatinBelow.mkmk;
 
 } LatinBelow.mkmk;
 

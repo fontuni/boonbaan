@@ -18,7 +18,7 @@ import datetime
 # Predifined vars
 foundry = 'FontUni'
 family = 'BoonBaan'
-version = '1.0-beta1'
+version = '1.0-beta2'
 sources = ['sources/boonbaan-master.sfd', 'sources/boonbaan-master-oblique.sfd']
 layers = ['400', '700']
 licensetxt = 'OFT.txt'

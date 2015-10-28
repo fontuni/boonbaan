@@ -1,3 +1,7 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
 
 lookup Latin.kern {
   lookupflag 0;

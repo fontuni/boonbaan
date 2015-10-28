@@ -1,0 +1,51 @@
+languagesystem DFLT dflt;
+languagesystem lao  dflt;
+
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+include(lao-classes.fea)
+
+lookup LaoExtendedAbove.mkmk {
+  lookupflag 0;
+
+  markClass [ @T.lao \uni0ECD.su ] <anchor -60 0> @LaoExtendedAbove.mkmk;
+
+  pos mark [ @T.lao.sd @AV.lao @T.lao.nig ] <anchor -60 0> mark @LaoExtendedAbove.mkmk;
+  pos mark [ @T.lao \uni0ECD.su @T.lao.nig ] <anchor -22 240> mark @LaoExtendedAbove.mkmk;
+    
+} LaoExtendedAbove.mkmk;
+
+lookup LaoExtendedAbove.left.mkmk {
+  lookupflag 0;
+
+  markClass [ @T.lao.sl  \uni0ECD.sul ] <anchor -60 0> @LaoExtendedAbove.left.mkmk;
+
+  pos mark [ @T.lao.sdl  @AV.lao.sl @T.lao.nig.sl ] <anchor -60 0> mark @LaoExtendedAbove.left.mkmk;
+  pos mark [ @T.lao.sl  \uni0ECD.sul @T.lao.nig.sl ] <anchor -22 240> mark @LaoExtendedAbove.left.mkmk;
+
+} LaoExtendedAbove.left.mkmk;
+
+lookup LaoExtendedBelow.mkmk {
+  lookupflag 0;
+
+  markClass [ @BV.lao ] <anchor -60 0> @LaoExtendedBelow.mkmk;
+
+  pos mark [ \uni0EB8 \uni0EB9 ] <anchor -108 -300> mark @LaoExtendedBelow.mkmk;
+  pos mark [ \uni0EBC ] <anchor -93 -210> mark @LaoExtendedBelow.mkmk;
+
+  pos mark [ \uni0EB8.sd \uni0EB9.sd ] <anchor -141 -510> mark @LaoExtendedBelow.mkmk;
+  pos mark [ \uni0EBC.sd ] <anchor -127 -420> mark @LaoExtendedBelow.mkmk;
+
+} LaoExtendedBelow.mkmk;
+
+feature mkmk {
+  lookup LaoExtendedAbove.mkmk;
+  lookup LaoExtendedAbove.left.mkmk;
+  lookup LaoExtendedBelow.mkmk;
+} mkmk;

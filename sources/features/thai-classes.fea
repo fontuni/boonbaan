@@ -79,7 +79,9 @@
 @T.sd  = [ \uni0E48.sd  \uni0E49.sd  \uni0E4A.sd  \uni0E4B.sd  \uni0E4C.sd  ];
 @T.sdl = [ \uni0E48.sdl \uni0E49.sdl \uni0E4A.sdl \uni0E4B.sdl \uni0E4C.sdl ];
 @T.sl  = [ \uni0E48.sl  \uni0E49.sl  \uni0E4A.sl  \uni0E4B.sl  \uni0E4C.sl  ];
-@T.all = [ @T @T.sd @T.sdl @T.sl ];
+@T.nig  = [ \uni0EC8.0ECD  \uni0EC9.0ECD  \uni0ECA.0ECD  \uni0ECB.0ECD ];
+@T.nig.sl  = [ \uni0EC8.0ECD.sl  \uni0EC9.0ECD.sl  \uni0ECA.0ECD.sl  \uni0ECB.0ECD.sl ];
+@T.all = [ @T @T.sd @T.sdl @T.sl @T.nig @T.nig.sl ];
 
 @MARKS_LEGACY = [ @MARKS @BV.all @AV.all @T.all ];
 

@@ -13,25 +13,25 @@ include(lao-classes.fea)
 
 lookup LaoAbove.mark {
   lookupflag 0;
-  markClass [ @AV.lao @T.lao.sd @T.lao.nig ] <anchor 0 0> @LaoAbove.mark;
+  markClass [ @AV.lao @T.lao.sd @T.lao.nig ] <anchor -60 0> @LaoAbove.mark;
 
   # ก alike
-  pos base [\uni0E81 \uni0E96 ] <anchor 720 0> mark @LaoAbove.mark;
+  pos base [\uni0E81 \uni0E96 ] <anchor 660 0> mark @LaoAbove.mark;
   # ง alike
-  pos base [ \uni0E87 \uni0EB2 ] <anchor 600 0> mark @LaoAbove.mark;
+  pos base [ \uni0E87 \uni0EB2 ] <anchor 540 0> mark @LaoAbove.mark;
 
 } LaoAbove.mark;
 
 lookup LaoBelow.mark {
   lookupflag 0;
 
-  markClass [ @BV.lao.sd ] <anchor 0 0> @LaoBelow.mark;
-  pos base [ \uni0E87 ] <anchor 580 0> mark @LaoBelow.mark;
+  markClass [ @BV.lao.sd ] <anchor -60 0> @LaoBelow.mark;
+  pos base [ \uni0E87 ] <anchor 520 0> mark @LaoBelow.mark;
 
-  markClass [ \uni0EB8 ] <anchor -60 0> @LaoBelow2.mark;
-  markClass [ \uni0EB9 \uni0EBC ] <anchor 0 0> @LaoBelow2.mark;
-  pos base [ \uni0E8A ] <anchor 630 0> mark @LaoBelow2.mark;
-  pos base [ \uni0E96 ] <anchor 600 0> mark @LaoBelow2.mark;
+  markClass [ \uni0EB8 ] <anchor -120 0> @LaoBelow2.mark;
+  markClass [ \uni0EB9 \uni0EBC ] <anchor -60 0> @LaoBelow2.mark;
+  pos base [ \uni0E8A ] <anchor 570 0> mark @LaoBelow2.mark;
+  pos base [ \uni0E96 ] <anchor 540 0> mark @LaoBelow2.mark;
   
 } LaoBelow.mark;
 

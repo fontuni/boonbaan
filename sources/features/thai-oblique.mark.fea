@@ -15,25 +15,25 @@ include(thai-classes.fea)
 
 lookup ThaiAbove.mark {
   lookupflag 0;
-  markClass [ @AV @T.sd @T.nig ] <anchor 0 0> @ThaiAbove.mark;
+  markClass [ @AV @T.sd @T.nig ] <anchor -60 0> @ThaiAbove.mark;
 
   # ก alike
-  pos base [\uni0E01 \uni0E0E \uni0E0F \uni0E16 \uni0E20 \uni0E24 \uni0E26 ] <anchor 720 0> mark @ThaiAbove.mark;
+  pos base [\uni0E01 \uni0E0E \uni0E0F \uni0E16 \uni0E20 \uni0E24 \uni0E26 ] <anchor 660 0> mark @ThaiAbove.mark;
   # ง alike
-  pos base [ \uni0E07 \uni0E32 ] <anchor 600 0> mark @ThaiAbove.mark;
+  pos base [ \uni0E07 \uni0E32 ] <anchor 540 0> mark @ThaiAbove.mark;
 
 } ThaiAbove.mark;
 
 lookup ThaiBelow.mark {
   lookupflag 0;
 
-  markClass [ @BV.sd ] <anchor 0 0> @ThaiBelow.mark;
-  pos base [ \uni0E07 ] <anchor 580 0> mark @ThaiBelow.mark;
+  markClass [ @BV.sd ] <anchor -60 0> @ThaiBelow.mark;
+  pos base [ \uni0E07 ] <anchor 520 0> mark @ThaiBelow.mark;
   
-  markClass [ \uni0E38 \uni0E3A ] <anchor -60 0> @ThaiBelow2.mark;
-  markClass [ \uni0E39 ] <anchor 0 0> @ThaiBelow2.mark;
-  pos base [ \uni0E0A \uni0E0B ] <anchor 630 0> mark @ThaiBelow2.mark;
-  pos base [ \uni0E24 \uni0E26 ] <anchor 600 0> mark @ThaiBelow2.mark;
+  markClass [ \uni0E38 \uni0E3A ] <anchor -120 0> @ThaiBelow2.mark;
+  markClass [ \uni0E39 ] <anchor -60 0> @ThaiBelow2.mark;
+  pos base [ \uni0E0A \uni0E0B ] <anchor 570 0> mark @ThaiBelow2.mark;
+  pos base [ \uni0E24 \uni0E26 ] <anchor 540 0> mark @ThaiBelow2.mark;
 
 } ThaiBelow.mark;
 

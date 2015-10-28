@@ -5,7 +5,7 @@ FamilyName: BoonBaan
 Weight: 400
 Copyright: Copyright 2014-2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 UComments: "BoonHome Font Information+AA0ACgANAAoA-BoonHome is a Unicode typeface family that supports Lao and Thai languages. Since version 0.2, it was expanded to completely support the following Unicode ranges:+AAoACgAA-- Basic Latin+AAoA-- Latin-1 Supplement+AAoA-- Latin Extended-A+AAoACgAA-And partially included some glyphs from Latin Extended-B and Latin Extended Additional for Vietnamese language.+AAoA +AAoA-2014-1-12: Initiated.+AAoACgAA-2014-1-29: BoonHome v0.1+AAoACgAA-- Created basic OpenType features for Lao and Thai languages.+AAoA-- Completed Lao and Thai glyphs.+AAoA-- Generated 400 & 700 weights with Oblique style.+AAoACgAA-2014-2-09: BoonHome v0.2+AAoACgAA-- Corrected some Lao and Thai glyphs.+AAoA-- Corrected OpenType features for Lao and Thai's vowels and tone marks.+AAoA-- Completed Basic Latin, Latin-1 Supplement, Latin Extended-A.+AAoA-- Partially included Latin Extended-B and Latin Extended Additional.+AAoA-- Kerned diacritic glyphs, especially for Vietnamese language."
-Version: 1.0-beta1
+Version: 1.0-beta2
 ItalicAngle: -9
 UnderlinePosition: -60
 UnderlineWidth: 30
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1389497698
-ModificationTime: 1445787939
+ModificationTime: 1446023352
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -55,12 +55,12 @@ DisplaySize: -48
 DisplayLayer: 3
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 175 25 8
+WinInfo: 750 25 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "ThaiBelow2.mark" "" "LaoBelow2.mark" "" 
-BeginChars: 931 937
+BeginChars: 939 945
 
 StartChar: uni0E81
 Encoding: 495 3713 0
@@ -42231,6 +42231,94 @@ SplineSet
  -63 1116 -127 1050 -234 1050 c 2
  -261 1050 l 1
 EndSplineSet
+EndChar
+
+StartChar: uni0EC8.0ECD
+Encoding: 931 -1 937
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 44 3784 S 1 0 0 1 0 0 2
+Refer: 47 3789 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EC9.0ECD
+Encoding: 932 -1 938
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 46 3785 S 1 0 0 1 0 0 2
+Refer: 47 3789 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0ECA.0ECD
+Encoding: 933 -1 939
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 49 3786 S 1 0 0 1 0 0 2
+Refer: 47 3789 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0ECB.0ECD
+Encoding: 934 -1 940
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 45 3787 S 1 0 0 1 0 0 2
+Refer: 47 3789 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EC8.0ECD.sl
+Encoding: 935 -1 941
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 922 -1 S 1 0 0 1 0 0 2
+Refer: 918 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EC9.0ECD.sl
+Encoding: 936 -1 942
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 925 -1 S 1 0 0 1 0 0 2
+Refer: 918 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0ECA.0ECD.sl
+Encoding: 937 -1 943
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 928 -1 S 1 0 0 1 0 0 2
+Refer: 918 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0ECB.0ECD.sl
+Encoding: 938 -1 944
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 4
+Layer: 3
+Refer: 931 -1 S 1 0 0 1 0 0 2
+Refer: 918 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
