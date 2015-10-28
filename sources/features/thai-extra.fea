@@ -22,6 +22,7 @@ lookup Thai.liga {
   sub \uni0E26 \uni200D \uni0E45 by \uni0E260E45.liga;
   sub \uni0E4F \period \period by \uni0E4F.extra; # this works on Mac
   sub \uni0E4F \uni200D \period \uni200D \period by \uni0E4F.extra;
+  
   sub \uni0E2B \uni0E19 by \uni0E2B0E19.liga;
   sub \uni0E2B \uni0E21 by \uni0EDD;
 } Thai.liga;

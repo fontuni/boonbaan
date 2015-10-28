@@ -79,7 +79,7 @@ lookup ThaiPhinthu.ro {
   sub [ \uni0E39 \uni0E39.sd ]'lookup ThaiBV.0E3A [ \uni0E3A \uni0E3A.sd ]'lookup Thai0E3A.0E39;
 } ThaiPhinthu.ro;
 
-@BASE.nc = [ @NC @RC.rd @LV \uni0E30 \uni0E32 ];
+@BASE.nc = [ @NC @RC.rd @LV \uni0E30 \uni0E32 \uni0E2B0E19.liga \uni0EDD ];
 @BASE.dc = [ @DC @RC @IV \uni0E45 ];
 @AM = [ \uni0E33 ];
 @AV.opt  = [ \uni0E47 \uni0E4D ];
