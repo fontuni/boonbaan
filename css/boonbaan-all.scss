@@ -1,0 +1,37 @@
+// Theme-specific fonts
+$font-family: "BoonBaan";
+
+@mixin font-include($name, $weight, $style) {
+  font-family: $font-family;
+  src: url(../fonts/woff2/#{$name}.woff2) format('woff2'),
+       url(../fonts/woff/#{$name}.woff) format('woff'),
+       url(../fonts/ttf/#{$name}.ttf) format('truetype');
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@font-face {
+  @include font-include(BoonBaan-400, 400, normal);
+}
+@font-face {
+  @include font-include(BoonBaan-400i, 400, oblique);
+}
+
+@font-face {
+  @include font-include(BoonBaan-700, 700, normal);
+}
+@font-face {
+  @include font-include(BoonBaan-700i, 700, oblique);
+}
+
+// Font options
+@mixin font-class($weight, $style) {
+  font-family: $font-family;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+.boonbaan-400 { @include font-class(40, normal); }
+.boonbaan-400i { @include font-class(400, oblique); }
+.boonbaan-700 { @include font-class(700, normal); }
+.boonbaan-700i { @include font-class(700, oblique); }

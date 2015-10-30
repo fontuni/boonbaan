@@ -2,27 +2,9 @@
 
 Copyright 2014-2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 
-**BoonBaan** (formerly BoonHome) is a Unicode typeface family that supports **Lao and Thai** languages. Since version 0.2, it was expanded to **completely support** the following Unicode ranges:
-
-- **Basic Latin**
-- **Latin-1 Supplement**
-- **Latin Extended-A**
-
-And partially included some glyphs from **Latin Extended-B** and **Latin Extended Additional** ranges for Vietnamese language.
+**BoonBaan** (formerly BoonHome) is a Unicode typeface family that supports **Lao and Thai** languages. Since version 1.0, it was expanded to **completely support** Adobe Latin-4
 
 Created with **Inkscape** <http://www.inkscape.org> and **FontForge** <http://fontforge.org>.
-
-###ພາສາລາວ
-
-<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-icon-lo.png" alt="ບຸນໂຮມ">
-
-###ภาษาไทย
-
-<img src="https://github.com/sungsit/boonhome/raw/master/img/350x350-icon-th.png" alt="บุญโฮม">
-
-###Sample Unicode texts
-
-<img src="https://github.com/sungsit/boonhome/raw/master/img/600x800-display-uni.png" alt="Sample Unicode texts">
 
 ### DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,

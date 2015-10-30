@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "BoonBaan";
+  src: url(../fonts/woff2/BoonBaan-400.woff2) format("woff2"), url(../fonts/woff/BoonBaan-400.woff) format("woff"), url(../fonts/ttf/BoonBaan-400.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "BoonBaan";
+  src: url(../fonts/woff2/BoonBaan-400i.woff2) format("woff2"), url(../fonts/woff/BoonBaan-400i.woff) format("woff"), url(../fonts/ttf/BoonBaan-400i.ttf) format("truetype");
+  font-weight: 400;
+  font-style: oblique; }
+@font-face {
+  font-family: "BoonBaan";
+  src: url(../fonts/woff2/BoonBaan-700.woff2) format("woff2"), url(../fonts/woff/BoonBaan-700.woff) format("woff"), url(../fonts/ttf/BoonBaan-700.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "BoonBaan";
+  src: url(../fonts/woff2/BoonBaan-700i.woff2) format("woff2"), url(../fonts/woff/BoonBaan-700i.woff) format("woff"), url(../fonts/ttf/BoonBaan-700i.ttf) format("truetype");
+  font-weight: 700;
+  font-style: oblique; }
+.boonbaan-400 {
+  font-family: "BoonBaan";
+  font-weight: 40;
+  font-style: normal; }
+
+.boonbaan-400i {
+  font-family: "BoonBaan";
+  font-weight: 400;
+  font-style: oblique; }
+
+.boonbaan-700 {
+  font-family: "BoonBaan";
+  font-weight: 700;
+  font-style: normal; }
+
+.boonbaan-700i {
+  font-family: "BoonBaan";
+  font-weight: 700;
+  font-style: oblique; }
+
+/*# sourceMappingURL=boonbaan-all.css.map */
