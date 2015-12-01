@@ -5,7 +5,7 @@ FamilyName: BoonBaan
 Weight: 400
 Copyright: Copyright 2014-2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 UComments: "BoonHome Font Information+AA0ACgANAAoA-BoonHome is a Unicode typeface family that supports Lao and Thai languages. Since version 0.2, it was expanded to completely support the following Unicode ranges:+AAoACgAA-- Basic Latin+AAoA-- Latin-1 Supplement+AAoA-- Latin Extended-A+AAoACgAA-And partially included some glyphs from Latin Extended-B and Latin Extended Additional for Vietnamese language.+AAoA +AAoA-2014-1-12: Initiated.+AAoACgAA-2014-1-29: BoonHome v0.1+AAoACgAA-- Created basic OpenType features for Lao and Thai languages.+AAoA-- Completed Lao and Thai glyphs.+AAoA-- Generated 400 & 700 weights with Oblique style.+AAoACgAA-2014-2-09: BoonHome v0.2+AAoACgAA-- Corrected some Lao and Thai glyphs.+AAoA-- Corrected OpenType features for Lao and Thai's vowels and tone marks.+AAoA-- Completed Basic Latin, Latin-1 Supplement, Latin Extended-A.+AAoA-- Partially included Latin Extended-B and Latin Extended Additional.+AAoA-- Kerned diacritic glyphs, especially for Vietnamese language."
-Version: 1.0
+Version: 1.0.1
 ItalicAngle: -9
 UnderlinePosition: -60
 UnderlineWidth: 30
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1389497698
-ModificationTime: 1446023352
+ModificationTime: 1448992578
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -46,7 +46,7 @@ HheadDOffset: 0
 OS2Vendor: 'FUni'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "FontUni" "Sungsit Sawaiwan" "" "" "https://fontuni.com" "" "http://scripts.sil.org/OFL" "" "BoonBaan"
+LangName: 1033 "" "" "" "" "" "" "" "" "FontUni" "Sungsit Sawaiwan" "" "https://fontuni.com" "https://sungsit.com" "" "http://scripts.sil.org/OFL" "" "BoonBaan"
 GaspTable: 1 65535 2 0
 Encoding: Custom
 UnicodeInterp: none
@@ -35989,7 +35989,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Omega
+StartChar: uni2126
 Encoding: 789 8486 813
 Width: 860
 VWidth: 0
