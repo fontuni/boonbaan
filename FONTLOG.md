@@ -1,20 +1,28 @@
 ---
 layout: font
+name: boonbaan
 title: BoonBaan FONTLOG
 titleclass: "boonbaan-700"
-css: "/boonbaan/css/boonbaan-all.css"
+css: /boonbaan/css/boonbaan-all.css
+theme: /css/theme-boonbaan.css
 class: "boonbaan-400"
 ---
 
+### BoonBaan v1.0.1, 2015-12-02
+{: .section-title }
+
+- Corrected PS private values & new auto-hinting
+- Added EOT & SVG packages
+
 ### BoonBaan v1.0, 2015-10-30
-{: .boonbaan-400}
+{: .section-title }
 
 - Changed family name to **BoonBaan**
 - Added new font features
 - Hinted by [ttfautohint v1.4.1](http://www.freetype.org/ttfautohint/) (Thai & Lao script support)
 
 ### BoonHome v0.2: 2014-02-09
-{: .boonbaan-400}
+{: .section-title }
 
 - Corrected some Lao and Thai glyphs.
 - Corrected OpenType features for Lao and Thai's vowels and tone marks.
@@ -23,7 +31,7 @@ class: "boonbaan-400"
 - Kerned diacritic glyphs, especially for Vietnamese language.
 
 ### BoonHome v0.1: 2014-01-29
-{: .boonbaan-400}
+{: .section-title }
 
 - Created basic OpenType features for Lao and Thai languages.
 - Completed Lao and Thai glyphs.

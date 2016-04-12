@@ -31,7 +31,7 @@ $font-family: "BoonBaan";
   font-style: $style;
 }
 
-.boonbaan-400 { @include font-class(40, normal); }
+.boonbaan-400 { @include font-class(400, normal); }
 .boonbaan-400i { @include font-class(400, oblique); }
 .boonbaan-700 { @include font-class(700, normal); }
 .boonbaan-700i { @include font-class(700, oblique); }
