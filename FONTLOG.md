@@ -6,6 +6,9 @@ titleclass: "boonbaan-700"
 css: /boonbaan/css/boonbaan-all.css
 theme: /css/theme-boonbaan.css
 class: "boonbaan-400"
+cover:
+  path: /boonbaan/images/boonbaan-cover.png
+excerpt: "BoonBaan FONTLOG"
 ---
 
 ### BoonBaan v1.0.1, 2015-12-02
