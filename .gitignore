@@ -1,16 +1,33 @@
-*.*~
-components/*
-.sass-cache/*
+*.tar
+*.tar.*
+*.zip
+*.tgz
+*.log
+*.log.*
+*.sig
+pkg/
+src/
 
-*backup/*
 *.sfd-*
+notes.txt
+*-temp*
+sources/*.*tf
+*/bak/*
 fonts/unhinted/*
 fonts/eot/*
 fonts/svg/*
+.sass-cache/*
+__pycache*
+*.pyc
+
+*backup/*
+*.sfd-*
+*/unhinted/*
 *-temp*
 *-backup*
 *.bak
+*-bak*
 
 # Package
-*.zip
 sfd/*
+*-v*.zip
