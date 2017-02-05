@@ -11,29 +11,58 @@
 // ---------------------------------------------
 
 // Theme-specific fonts
-$font-family: "BoonBaan-v1.0";
 
-@mixin font-include($name, $weight, $style) {
-  font-family: $font-family;
-  src: url(../fonts/woff2/#{$name}.woff2) format('woff2'),
-       url(../fonts/woff/#{$name}.woff) format('woff'),
-       url(../fonts/ttf/#{$name}.ttf) format('truetype');
+// weight helper
+@function weight($key) {
+  @if map-has-key($weights, $key) {
+    @return map-get($weights, $key);
+  }
+  @warn "Unknown `#{$key}` in $weights.";
+  @return null;
+}
+
+// @font-face mixin
+@mixin font-include($font-family, $name, $weight, $style: normal) {
+  font-family: #{$font-family};
+  src: url(../fonts/woff2-otf/#{$name}.woff2) format('woff2'),
+       url(../fonts/woff-otf/#{$name}.woff) format('woff'),
+       url(../fonts/otf/#{$name}.otf) format('truetype');
   font-weight: $weight;
   font-style: $style;
 }
 
-@font-face {
-  @include font-include(BoonBaan-400, 400, normal);
-}
-@font-face {
-  @include font-include(BoonBaan-400i, 400, oblique);
+// font classes & styles
+@mixin font-class($font-family, $class-name, $weight, $style: normal, $name: null) {
+  .#{$class-name}-#{$weight}#{$name} {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+  }
 }
 
-@font-face {
-  @include font-include(BoonBaan-700, 700, normal);
-}
-@font-face {
-  @include font-include(BoonBaan-700i, 700, oblique);
+// vars
+$font-family: BoonBaan;
+$class-name: boonbaan;
+$styles: normal italic;
+$weights: (Regular: 400, Bold: 700);
+
+// sass magic!
+@each $name, $value in $weights {
+  @each $style in $styles {
+    @if $style == normal {
+      @font-face {
+        @include font-include($font-family, #{$font-family}-#{$name}, $value);
+      }
+      @include font-class($font-family, $class-name, $value);
+    }
+    @if $style == italic {
+      @font-face {
+        @if $value == 400 { @include font-include($font-family, #{$font-family}-Italic, $value, $style); }
+        @else { @include font-include($font-family, #{$font-family}-#{$name}Italic, $value, $style); }
+      }
+      @include font-class($font-family, $class-name, $value, $style, i);
+    }
+  } 
 }
 
 // monospaced font
@@ -65,7 +94,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: capitalize;
 $headingFontWeight: 400;
-$linkColor: #8b0;
+$linkColor: #7a0;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 

@@ -6,25 +6,45 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 @font-face {
-  font-family: "BoonBaan-v1.0";
-  src: url(../fonts/woff2/BoonBaan-400.woff2) format("woff2"), url(../fonts/woff/BoonBaan-400.woff) format("woff"), url(../fonts/ttf/BoonBaan-400.ttf) format("truetype");
+  font-family: BoonBaan;
+  src: url(../fonts/woff2-otf/BoonBaan-Regular.woff2) format("woff2"), url(../fonts/woff-otf/BoonBaan-Regular.woff) format("woff"), url(../fonts/otf/BoonBaan-Regular.otf) format("truetype");
   font-weight: 400;
   font-style: normal; }
-@font-face {
-  font-family: "BoonBaan-v1.0";
-  src: url(../fonts/woff2/BoonBaan-400i.woff2) format("woff2"), url(../fonts/woff/BoonBaan-400i.woff) format("woff"), url(../fonts/ttf/BoonBaan-400i.ttf) format("truetype");
+.boonbaan-400 {
+  font-family: BoonBaan;
   font-weight: 400;
-  font-style: oblique; }
+  font-style: normal; }
+
 @font-face {
-  font-family: "BoonBaan-v1.0";
-  src: url(../fonts/woff2/BoonBaan-700.woff2) format("woff2"), url(../fonts/woff/BoonBaan-700.woff) format("woff"), url(../fonts/ttf/BoonBaan-700.ttf) format("truetype");
+  font-family: BoonBaan;
+  src: url(../fonts/woff2-otf/BoonBaan-Italic.woff2) format("woff2"), url(../fonts/woff-otf/BoonBaan-Italic.woff) format("woff"), url(../fonts/otf/BoonBaan-Italic.otf) format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+.boonbaan-400i {
+  font-family: BoonBaan;
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: BoonBaan;
+  src: url(../fonts/woff2-otf/BoonBaan-Bold.woff2) format("woff2"), url(../fonts/woff-otf/BoonBaan-Bold.woff) format("woff"), url(../fonts/otf/BoonBaan-Bold.otf) format("truetype");
   font-weight: 700;
   font-style: normal; }
-@font-face {
-  font-family: "BoonBaan-v1.0";
-  src: url(../fonts/woff2/BoonBaan-700i.woff2) format("woff2"), url(../fonts/woff/BoonBaan-700i.woff) format("woff"), url(../fonts/ttf/BoonBaan-700i.ttf) format("truetype");
+.boonbaan-700 {
+  font-family: BoonBaan;
   font-weight: 700;
-  font-style: oblique; }
+  font-style: normal; }
+
+@font-face {
+  font-family: BoonBaan;
+  src: url(../fonts/woff2-otf/BoonBaan-BoldItalic.woff2) format("woff2"), url(../fonts/woff-otf/BoonBaan-BoldItalic.woff) format("woff"), url(../fonts/otf/BoonBaan-BoldItalic.otf) format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+.boonbaan-700i {
+  font-family: BoonBaan;
+  font-weight: 700;
+  font-style: italic; }
+
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -36,14 +56,14 @@ body {
   background-color: #fcfcfc; }
 
 .reveal {
-  font-family: "BoonBaan-v1.0";
+  font-family: BoonBaan;
   font-size: 54px;
   font-weight: normal;
   color: #222; }
 
 ::selection {
   color: #fff;
-  background: #caff3c;
+  background: #bfff2b;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -62,7 +82,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "BoonBaan-v1.0";
+  font-family: BoonBaan;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: normal;
@@ -225,20 +245,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #8b0;
+  color: #7a0;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #bcff09;
+  color: #adf700;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #506f00; }
+  background: #415e00; }
 
 /*********************************************
  * IMAGES
@@ -260,7 +280,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #8b0;
+  border-color: #7a0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -268,31 +288,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #8b0; }
+  border-right-color: #7a0; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #8b0; }
+  border-left-color: #7a0; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #8b0; }
+  border-bottom-color: #7a0; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #8b0; }
+  border-top-color: #7a0; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #bcff09; }
+  border-right-color: #adf700; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #bcff09; }
+  border-left-color: #adf700; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #bcff09; }
+  border-bottom-color: #adf700; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #bcff09; }
+  border-top-color: #adf700; }
 
 /*********************************************
  * PROGRESS BAR
@@ -301,7 +321,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #8b0;
+  background: #7a0;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -310,10 +330,10 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #8b0; }
+  color: #7a0; }
 
 body .reveal {
-  font-family: "BoonBaan-v1.0";
+  font-family: BoonBaan;
   -webkit-font-feature-settings: "locl";
   -moz-font-feature-settings: "locl";
   -ms-font-feature-settings: "locl";
@@ -502,7 +522,7 @@ body .reveal {
     font-size: 136px;
     line-height: 1em;
     margin: 0px;
-    color: #8b0; }
+    color: #7a0; }
   body .reveal header .date {
     font-size: 152px;
     line-height: 1.5em;
@@ -521,7 +541,7 @@ body .reveal {
       body .reveal .poem table th {
         padding-bottom: 0.5em; }
   body .reveal #style-sets span {
-    color: #8b0; }
+    color: #7a0; }
   body .reveal .controls div.enabled {
     opacity: 1; }
 

@@ -1,6 +1,6 @@
 ## BoonBaan Unicode Typeface
 
-Copyright 2014-2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Copyright 2014-2017, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 
 **BoonBaan** (formerly BoonHome) is a Unicode typeface family that supports **Lao and Thai** languages. Since version 1.0, it was expanded to **completely support** Adobe Latin-4
 
