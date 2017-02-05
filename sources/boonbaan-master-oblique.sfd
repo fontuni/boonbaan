@@ -20,12 +20,12 @@ Layer: 1 0 "Fore" 0
 Layer: 2 0 "400" 0
 Layer: 3 0 "700" 0
 StyleMap: 0x0001
-FSType: 8
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1389497698
-ModificationTime: 1486186736
+ModificationTime: 1486297446
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
